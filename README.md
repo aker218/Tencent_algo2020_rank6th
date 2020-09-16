@@ -1,3 +1,15 @@
+# Tecent_algo2020
+2020
+腾讯广告算法大赛
+
+比赛链接：https://algo.qq.com/
+
+
+结果:
+| Name     | Score |  Rank|Team member| 
+| :--------|:------|:----|:----------|
+|正方形的圆 | 1.4823| 6   |https://github.com/aker218<br>https://github.com/yongruihuang|
+
 # 安装依赖
 运行环境python3.6
 具体依赖：
