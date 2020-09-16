@@ -1,0 +1,492 @@
+2020-07-23 12:15:22,286 - INFO - PyTorch version 1.1.0 available.
+/home/huangweilin/anaconda3/envs/hyr/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:523: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/huangweilin/anaconda3/envs/hyr/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:524: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/huangweilin/anaconda3/envs/hyr/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/huangweilin/anaconda3/envs/hyr/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/huangweilin/anaconda3/envs/hyr/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/huangweilin/anaconda3/envs/hyr/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:532: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+2020-07-23 12:15:24,423 - INFO - start read df data
+2020-07-23 12:15:32,009 - INFO - finish read df data
+2020-07-23 12:15:32,228 - INFO - start training 
+2020-07-23 12:15:32,229 - INFO - train number 240, val number 60
+4269508
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:15:38,545 - INFO - forward:0.110929 backward:0.255589
+2020-07-23 12:15:38,546 - INFO - flod 0 epoch 0 : 
+ loss: 2.293488 loss_gender : 1.050498, loss_age : 3.536479, gender : 0.620833, 0.600000, age : 0.204167, 0.100000, score:0.700000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:15:41,023 - INFO - forward:0.191644 backward:0.515833
+2020-07-23 12:15:41,024 - INFO - flod 0 epoch 1 : 
+ loss: 2.002950 loss_gender : 1.016210, loss_age : 2.989691, gender : 0.620833, 0.600000, age : 0.175000, 0.216667, score:0.816667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:15:43,525 - INFO - forward:0.265460 backward:0.760848
+2020-07-23 12:15:43,525 - INFO - flod 0 epoch 2 : 
+ loss: 1.496221 loss_gender : 0.698033, loss_age : 2.294410, gender : 0.716667, 0.600000, age : 0.208333, 0.100000, score:0.700000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:15:45,926 - INFO - forward:0.335210 backward:0.994710
+2020-07-23 12:15:45,926 - INFO - flod 0 epoch 3 : 
+ loss: 1.369549 loss_gender : 0.608257, loss_age : 2.130841, gender : 0.625000, 0.600000, age : 0.179167, 0.150000, score:0.750000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:15:48,382 - INFO - forward:0.406573 backward:1.224215
+2020-07-23 12:15:48,382 - INFO - flod 0 epoch 4 : 
+ loss: 1.332525 loss_gender : 0.602947, loss_age : 2.062103, gender : 0.683333, 0.616667, age : 0.141667, 0.200000, score:0.816667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:15:50,769 - INFO - forward:0.475502 backward:1.454713
+2020-07-23 12:15:50,769 - INFO - flod 0 epoch 5 : 
+ loss: 1.313473 loss_gender : 0.571267, loss_age : 2.055680, gender : 0.741667, 0.566667, age : 0.229167, 0.150000, score:0.716667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:15:53,284 - INFO - forward:0.549461 backward:1.679465
+2020-07-23 12:15:53,285 - INFO - flod 0 epoch 6 : 
+ loss: 1.288877 loss_gender : 0.563719, loss_age : 2.014034, gender : 0.720833, 0.616667, age : 0.216667, 0.100000, score:0.716667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:15:55,737 - INFO - forward:0.622915 backward:1.917268
+2020-07-23 12:15:55,737 - INFO - flod 0 epoch 7 : 
+ loss: 1.272723 loss_gender : 0.554646, loss_age : 1.990801, gender : 0.737500, 0.600000, age : 0.225000, 0.083333, score:0.683333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:15:58,100 - INFO - forward:0.686717 backward:2.136867
+2020-07-23 12:15:58,101 - INFO - flod 0 epoch 8 : 
+ loss: 1.267460 loss_gender : 0.549741, loss_age : 1.985180, gender : 0.737500, 0.616667, age : 0.237500, 0.083333, score:0.700000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:00,564 - INFO - forward:0.758910 backward:2.375571
+2020-07-23 12:16:00,565 - INFO - flod 0 epoch 9 : 
+ loss: 1.270035 loss_gender : 0.547842, loss_age : 1.992228, gender : 0.737500, 0.616667, age : 0.233333, 0.083333, score:0.700000
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=2), HTML(value='')))
+2020-07-23 12:16:01,985 - INFO - train number 240, val number 60
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:04,486 - INFO - forward:0.817342 backward:2.606769
+2020-07-23 12:16:04,487 - INFO - flod 1 epoch 0 : 
+ loss: 2.415458 loss_gender : 1.738653, loss_age : 3.092264, gender : 0.379167, 0.400000, age : 0.116667, 0.166667, score:0.566667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:06,902 - INFO - forward:0.893064 backward:2.844341
+2020-07-23 12:16:06,902 - INFO - flod 1 epoch 1 : 
+ loss: 1.637625 loss_gender : 0.809238, loss_age : 2.466013, gender : 0.741667, 0.816667, age : 0.183333, 0.133333, score:0.950000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:09,374 - INFO - forward:0.954849 backward:3.077248
+2020-07-23 12:16:09,374 - INFO - flod 1 epoch 2 : 
+ loss: 1.375199 loss_gender : 0.548594, loss_age : 2.201805, gender : 0.679167, 0.733333, age : 0.225000, 0.216667, score:0.950000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:11,891 - INFO - forward:1.014288 backward:3.306870
+2020-07-23 12:16:11,891 - INFO - flod 1 epoch 3 : 
+ loss: 1.323081 loss_gender : 0.546753, loss_age : 2.099410, gender : 0.729167, 0.766667, age : 0.183333, 0.166667, score:0.933333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:14,343 - INFO - forward:1.075817 backward:3.516489
+2020-07-23 12:16:14,343 - INFO - flod 1 epoch 4 : 
+ loss: 1.300890 loss_gender : 0.527153, loss_age : 2.074627, gender : 0.745833, 0.766667, age : 0.191667, 0.266667, score:1.033333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:16,735 - INFO - forward:1.137988 backward:3.741180
+2020-07-23 12:16:16,736 - INFO - flod 1 epoch 5 : 
+ loss: 1.296456 loss_gender : 0.528965, loss_age : 2.063946, gender : 0.741667, 0.766667, age : 0.225000, 0.200000, score:0.966667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:19,285 - INFO - forward:1.199526 backward:3.964998
+2020-07-23 12:16:19,286 - INFO - flod 1 epoch 6 : 
+ loss: 1.277981 loss_gender : 0.520097, loss_age : 2.035864, gender : 0.737500, 0.783333, age : 0.204167, 0.200000, score:0.983333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:21,694 - INFO - forward:1.269511 backward:4.184330
+2020-07-23 12:16:21,694 - INFO - flod 1 epoch 7 : 
+ loss: 1.276313 loss_gender : 0.516974, loss_age : 2.035652, gender : 0.737500, 0.766667, age : 0.237500, 0.183333, score:0.950000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:24,210 - INFO - forward:1.330170 backward:4.410775
+2020-07-23 12:16:24,210 - INFO - flod 1 epoch 8 : 
+ loss: 1.267436 loss_gender : 0.506188, loss_age : 2.028684, gender : 0.737500, 0.766667, age : 0.250000, 0.233333, score:1.000000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:26,744 - INFO - forward:1.400553 backward:4.645680
+2020-07-23 12:16:26,745 - INFO - flod 1 epoch 9 : 
+ loss: 1.262846 loss_gender : 0.508101, loss_age : 2.017591, gender : 0.737500, 0.766667, age : 0.245833, 0.216667, score:0.983333
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=2), HTML(value='')))
+2020-07-23 12:16:28,230 - INFO - train number 240, val number 60
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:30,935 - INFO - forward:1.458701 backward:4.881946
+2020-07-23 12:16:30,935 - INFO - flod 2 epoch 0 : 
+ loss: 2.141577 loss_gender : 1.434883, loss_age : 2.848270, gender : 0.379167, 0.400000, age : 0.179167, 0.150000, score:0.550000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:33,420 - INFO - forward:1.519744 backward:5.110935
+2020-07-23 12:16:33,420 - INFO - flod 2 epoch 1 : 
+ loss: 1.969119 loss_gender : 1.017094, loss_age : 2.921143, gender : 0.395833, 0.450000, age : 0.200000, 0.116667, score:0.566667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:35,947 - INFO - forward:1.589952 backward:5.346741
+2020-07-23 12:16:35,947 - INFO - flod 2 epoch 2 : 
+ loss: 1.531059 loss_gender : 0.704965, loss_age : 2.357154, gender : 0.616667, 0.600000, age : 0.129167, 0.166667, score:0.766667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:38,359 - INFO - forward:1.650667 backward:5.556600
+2020-07-23 12:16:38,359 - INFO - flod 2 epoch 3 : 
+ loss: 1.456688 loss_gender : 0.669479, loss_age : 2.243898, gender : 0.633333, 0.616667, age : 0.141667, 0.233333, score:0.850000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:40,808 - INFO - forward:1.715461 backward:5.784389
+2020-07-23 12:16:40,809 - INFO - flod 2 epoch 4 : 
+ loss: 1.374108 loss_gender : 0.643771, loss_age : 2.104444, gender : 0.629167, 0.600000, age : 0.187500, 0.116667, score:0.716667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:43,263 - INFO - forward:1.774927 backward:6.002542
+2020-07-23 12:16:43,264 - INFO - flod 2 epoch 5 : 
+ loss: 1.365648 loss_gender : 0.626485, loss_age : 2.104811, gender : 0.645833, 0.633333, age : 0.200000, 0.116667, score:0.750000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:45,683 - INFO - forward:1.835949 backward:6.227052
+2020-07-23 12:16:45,683 - INFO - flod 2 epoch 6 : 
+ loss: 1.351569 loss_gender : 0.619994, loss_age : 2.083144, gender : 0.687500, 0.716667, age : 0.187500, 0.233333, score:0.950000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:48,139 - INFO - forward:1.910091 backward:6.448287
+2020-07-23 12:16:48,140 - INFO - flod 2 epoch 7 : 
+ loss: 1.330137 loss_gender : 0.610920, loss_age : 2.049353, gender : 0.645833, 0.650000, age : 0.208333, 0.183333, score:0.833333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:50,545 - INFO - forward:1.968708 backward:6.671503
+2020-07-23 12:16:50,545 - INFO - flod 2 epoch 8 : 
+ loss: 1.316450 loss_gender : 0.602177, loss_age : 2.030722, gender : 0.637500, 0.683333, age : 0.237500, 0.166667, score:0.850000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:53,146 - INFO - forward:2.038969 backward:6.906323
+2020-07-23 12:16:53,147 - INFO - flod 2 epoch 9 : 
+ loss: 1.313592 loss_gender : 0.600865, loss_age : 2.026319, gender : 0.637500, 0.683333, age : 0.237500, 0.166667, score:0.850000
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=2), HTML(value='')))
+2020-07-23 12:16:54,683 - INFO - train number 240, val number 60
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:57,368 - INFO - forward:2.097770 backward:7.118750
+2020-07-23 12:16:57,368 - INFO - flod 3 epoch 0 : 
+ loss: 2.060494 loss_gender : 1.669419, loss_age : 2.451570, gender : 0.633333, 0.550000, age : 0.170833, 0.233333, score:0.783333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:16:59,924 - INFO - forward:2.170404 backward:7.352262
+2020-07-23 12:16:59,924 - INFO - flod 3 epoch 1 : 
+ loss: 1.723051 loss_gender : 0.811098, loss_age : 2.635003, gender : 0.420833, 0.500000, age : 0.183333, 0.166667, score:0.666667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:02,395 - INFO - forward:2.248761 backward:7.583086
+2020-07-23 12:17:02,395 - INFO - flod 3 epoch 2 : 
+ loss: 1.511474 loss_gender : 0.715639, loss_age : 2.307310, gender : 0.633333, 0.550000, age : 0.200000, 0.183333, score:0.733333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:04,924 - INFO - forward:2.307723 backward:7.812285
+2020-07-23 12:17:04,925 - INFO - flod 3 epoch 3 : 
+ loss: 1.430475 loss_gender : 0.661775, loss_age : 2.199174, gender : 0.733333, 0.633333, age : 0.200000, 0.083333, score:0.716667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:07,457 - INFO - forward:2.369447 backward:8.043430
+2020-07-23 12:17:07,458 - INFO - flod 3 epoch 4 : 
+ loss: 1.370917 loss_gender : 0.638266, loss_age : 2.103569, gender : 0.633333, 0.550000, age : 0.187500, 0.166667, score:0.716667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:09,859 - INFO - forward:2.430867 backward:8.274395
+2020-07-23 12:17:09,859 - INFO - flod 3 epoch 5 : 
+ loss: 1.347837 loss_gender : 0.613406, loss_age : 2.082268, gender : 0.641667, 0.550000, age : 0.204167, 0.216667, score:0.766667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:12,279 - INFO - forward:2.491983 backward:8.501381
+2020-07-23 12:17:12,280 - INFO - flod 3 epoch 6 : 
+ loss: 1.313551 loss_gender : 0.589251, loss_age : 2.037851, gender : 0.691667, 0.600000, age : 0.212500, 0.116667, score:0.716667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:14,818 - INFO - forward:2.554836 backward:8.726453
+2020-07-23 12:17:14,819 - INFO - flod 3 epoch 7 : 
+ loss: 1.312717 loss_gender : 0.588859, loss_age : 2.036576, gender : 0.712500, 0.700000, age : 0.195833, 0.083333, score:0.783333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:17,339 - INFO - forward:2.627884 backward:8.962572
+2020-07-23 12:17:17,340 - INFO - flod 3 epoch 8 : 
+ loss: 1.310075 loss_gender : 0.586078, loss_age : 2.034071, gender : 0.687500, 0.616667, age : 0.195833, 0.083333, score:0.700000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:19,772 - INFO - forward:2.689079 backward:9.184158
+2020-07-23 12:17:19,773 - INFO - flod 3 epoch 9 : 
+ loss: 1.303622 loss_gender : 0.578778, loss_age : 2.028466, gender : 0.687500, 0.616667, age : 0.195833, 0.083333, score:0.700000
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=2), HTML(value='')))
+2020-07-23 12:17:21,246 - INFO - train number 240, val number 60
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:23,920 - INFO - forward:2.763780 backward:9.446691
+2020-07-23 12:17:23,920 - INFO - flod 4 epoch 0 : 
+ loss: 2.357190 loss_gender : 1.500067, loss_age : 3.214314, gender : 0.587500, 0.733333, age : 0.145833, 0.100000, score:0.833333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:26,430 - INFO - forward:2.837724 backward:9.679325
+2020-07-23 12:17:26,430 - INFO - flod 4 epoch 1 : 
+ loss: 1.574196 loss_gender : 0.737446, loss_age : 2.410945, gender : 0.620833, 0.733333, age : 0.195833, 0.133333, score:0.866667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:28,910 - INFO - forward:2.909477 backward:9.900310
+2020-07-23 12:17:28,910 - INFO - flod 4 epoch 2 : 
+ loss: 1.396681 loss_gender : 0.632238, loss_age : 2.161123, gender : 0.704167, 0.766667, age : 0.137500, 0.083333, score:0.850000
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:31,386 - INFO - forward:2.981682 backward:10.131376
+2020-07-23 12:17:31,387 - INFO - flod 4 epoch 3 : 
+ loss: 1.355727 loss_gender : 0.597826, loss_age : 2.113629, gender : 0.708333, 0.750000, age : 0.195833, 0.166667, score:0.916667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:33,808 - INFO - forward:3.046989 backward:10.354535
+2020-07-23 12:17:33,809 - INFO - flod 4 epoch 4 : 
+ loss: 1.330124 loss_gender : 0.588106, loss_age : 2.072142, gender : 0.712500, 0.750000, age : 0.187500, 0.133333, score:0.883333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:36,226 - INFO - forward:3.118153 backward:10.586150
+2020-07-23 12:17:36,227 - INFO - flod 4 epoch 5 : 
+ loss: 1.327309 loss_gender : 0.576836, loss_age : 2.077782, gender : 0.741667, 0.783333, age : 0.204167, 0.083333, score:0.866667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:38,705 - INFO - forward:3.192585 backward:10.820981
+2020-07-23 12:17:38,705 - INFO - flod 4 epoch 6 : 
+ loss: 1.302869 loss_gender : 0.555763, loss_age : 2.049976, gender : 0.695833, 0.716667, age : 0.225000, 0.116667, score:0.833333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:41,187 - INFO - forward:3.256917 backward:11.046125
+2020-07-23 12:17:41,188 - INFO - flod 4 epoch 7 : 
+ loss: 1.288857 loss_gender : 0.559383, loss_age : 2.018330, gender : 0.720833, 0.766667, age : 0.250000, 0.150000, score:0.916667
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:43,654 - INFO - forward:3.329819 backward:11.277380
+2020-07-23 12:17:43,655 - INFO - flod 4 epoch 8 : 
+ loss: 1.284042 loss_gender : 0.553346, loss_age : 2.014738, gender : 0.745833, 0.766667, age : 0.270833, 0.166667, score:0.933333
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=4), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+2020-07-23 12:17:46,105 - INFO - forward:3.394422 backward:11.505345
+2020-07-23 12:17:46,105 - INFO - flod 4 epoch 9 : 
+ loss: 1.280081 loss_gender : 0.548509, loss_age : 2.011654, gender : 0.745833, 0.766667, age : 0.266667, 0.166667, score:0.933333
+
+HBox(children=(IntProgress(value=0, max=1), HTML(value='')))
+
+HBox(children=(IntProgress(value=0, max=2), HTML(value='')))
+
