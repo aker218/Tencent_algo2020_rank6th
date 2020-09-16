@@ -31,7 +31,7 @@ import os
 os.environ['NUMEXPR_MAX_THREADS'] = '32'
 import pandas as pd
 import numpy as np
-from tqdm import tqdm
+from tqdm import tqdm_notebook as tqdm
 from sklearn.metrics import confusion_matrix
 import IPython.display as ipd
 from sklearn.metrics import accuracy_score
@@ -103,6 +103,7 @@ import torch.nn.functional as F
 import torch.utils.data as Data
 from transformers import *
 import torch.nn as nn
+from tqdm import tqdm_notebook as tqdm
 
 
 # In[3]:
